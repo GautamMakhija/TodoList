@@ -1,0 +1,26 @@
+h1{
+    margin: 3% 38%;
+    padding: 0 2%;
+    border: 2px solid grey;
+}
+.item{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    margin: 1% 40%;
+}
+#Add{
+    display: flex;
+    width: 40%;
+    margin: 2% 35%;
+}
+#input{
+    margin: 1% 3%;
+    width: 50%;
+}
+
+#reset{
+    width: 5%;
+    margin: 2% 45%;
+}
