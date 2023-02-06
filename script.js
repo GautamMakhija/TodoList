@@ -24,12 +24,14 @@ add.addEventListener("click",function(){
     div.innerHTML+=text;
     container.appendChild(div);
     document.getElementById('input').value="";
+    add.disabled=true;
     btns=document.querySelectorAll('.btn');
     container=document.querySelector(".container");
     for(let btn of btns){
       btn.addEventListener("click",function(){
         btn.parentNode.remove();
       });
+
     }
   }
 })
